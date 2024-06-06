@@ -3,5 +3,5 @@
     "cargo install --path temp/helix/helix-term --locked",
     "export HELIX_RUNTIME=~/src/helix/runtime"
   ],
-  "executable_dir": ".",
+  "executable_dir": "."
 }
