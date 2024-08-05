@@ -1,7 +1,6 @@
 {
   "build_steps": [
-    "cargo build --manifest-path temp/helix-term/Cargo.toml --locked",
-    "export HELIX_RUNTIME=~/src/helix/runtime"
+    "cargo build --manifest-path temp/helix-term/Cargo.toml --locked"
   ],
-  "executable_dir": "."
+  "executable_dir": "./target/debug"
 }
